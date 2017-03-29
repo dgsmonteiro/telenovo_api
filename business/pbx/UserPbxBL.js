@@ -19,6 +19,7 @@ var tokenError = Error.extend('HttpUnauthorized', 417);
 var guid = require('node-uuid');
 var fs = require('fs');
 var fsp = require('fs-promise');
+var string_tools = require(path + '/business/tools/StringTools')
 
 //models and class
 var userPbxModel = require(path + '/model/pbx/UserPbxModel');
