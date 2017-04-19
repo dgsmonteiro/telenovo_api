@@ -10,6 +10,7 @@ var Schema = mongoose.Schema;
 var userClientPbxModel = require(path + '/model/pbx/client/UserClientPbxModel');
 var branchNumberModel = require(path + '/model/pbx/client/BranchNumberClientPbxModel');
 var branchGroupModel = require(path + '/model/pbx/client/BranchGroupClientPbxModel');
+var trunkModel = require(path + '/model/pbx/client/TrunksClientPbxModel');
 var types = mongoose.Schema.Types;
 
 
@@ -42,6 +43,7 @@ var model = new Schema({
         user: [userClientPbxModel],
         branch_number: [branchNumberModel],
         branch_group: [branchGroupModel],
+        trunksModel: [trunkModel],
     },
 }, {
     timestamps: true

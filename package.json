@@ -2,8 +2,8 @@
   "name": "55tex_plataform_api",
   "version": "2.0.0",
   "description": "API da Plataforma de Aplicações da 55TELECOM",
-  "main": "55TEC-Plataform-API-Init.js",
-  "author": "Flavio Franco Jr. // Arquiteto de Sistemas",
+  "main": "",
+  "author": "Douglas Monteiro Gomes. // Arquiteto de Sistemas",
   "dependencies": {
     "app-root-path": "^1.0.0",
     "bluebird": "^3.4.1",
